@@ -6,6 +6,10 @@
 
 /*header, nav, hamburger and footer*/
 
+img{ 
+    max-width: 100%;
+}
+
 header{
     width: 100%;
     height: auto;
@@ -68,7 +72,8 @@ nav img{
 
 .footer{ 
     background-color: black;
-    height: 20px;
+    height: 200px;
+    margin-top: auto;
 
 }
 
@@ -77,6 +82,19 @@ nav img{
     text-align: center;
    
 }
+
+body{  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Homepage*/
+
+.main-page{
+
+}
+
 
 
 @media (max-width: 750px){
