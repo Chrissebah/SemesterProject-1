@@ -179,7 +179,8 @@ nav img{
     .homepage h1{
         font-size: 32px;
     }
-    
+
+
 }
 
 @media (max-width: 450px) {
@@ -441,6 +442,141 @@ nav img{
 
 
 
+
+
+/*--------------------------Kids Page--------------------------*/
+
+
+.kids-page {
+    width: auto;
+    min-height: 768px;
+    background-color: #805230;
+    background-image: url("/images/kids-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    font-family: 'Andika', sans-serif;
+}
+
+.kids-page h1{
+    font-size: 46px;
+    color: #ffffff;
+    
+}
+
+.wrapper{
+    max-width: fit-content;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.wrapper h2{
+    font-size: 42px
+}
+
+.wrapper p{
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.info-card1{
+    max-width: 550px;
+    min-width: 300px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    padding: 3px;
+    background-color: #6F6043;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.info-card2{
+    max-width: 550px;
+    min-width: 300px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    padding: 3px;
+    background-color: #662A0B;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.info-card3{
+    max-width: 550px;
+    min-width: 300px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    padding: 3px;
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+@media (max-width: 1200px){
+    .wrapper h2{
+        font-size: 36px
+    }
+    
+    .wrapper p{
+        font-size: 28px;
+     
+    }
+
+
+}
+
+@media (max-width: 1150px){
+    .wrapper p{
+        font-size: 26px;
+     
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    .wrapper{
+        flex-direction: column;
+    
+    }
+
+    .kids-page{
+        background-image: none;
+    }
+
+
+   
+
+}
 
 
     
