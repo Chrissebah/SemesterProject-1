@@ -447,7 +447,7 @@ nav img{
 /*--------------------------Kids Page--------------------------*/
 
 
-.kids-page {
+.info-pages {
     width: auto;
     min-height: 768px;
     background-color: #805230;
@@ -463,9 +463,32 @@ nav img{
     font-family: 'Andika', sans-serif;
 }
 
-.kids-page h1{
+.info-pages h1{
     font-size: 46px;
     color: #ffffff;
+    
+}
+
+.info-pages2 {
+    width: auto;
+    min-height: 768px;
+    background-color: #805230;
+    background-image: url("/images/teachers-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Andika', sans-serif;
+}
+
+.info-pages2 h1{
+    font-size: 46px;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 20px;
     
 }
 
@@ -473,6 +496,7 @@ nav img{
     max-width: fit-content;
     position: relative;
     max-width: 100%;
+    min-width: 250px;
     display: flex;
     flex-wrap: nowrap;
     padding: 20px;
@@ -489,17 +513,19 @@ nav img{
 }
 
 .wrapper p{
-    font-size: 36px;
+    font-size: 31px;
     margin-top: 10px;
 }
 
+
+
 .info-card1{
     max-width: 550px;
-    min-width: 300px;
+    min-width: 200px;
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 600px;
+    height: 700px;
     padding: 3px;
     background-color: #6F6043;
     margin-top: 5px;
@@ -511,11 +537,11 @@ nav img{
 
 .info-card2{
     max-width: 550px;
-    min-width: 300px;
+    min-width: 200px;
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 600px;
+    height: 700px;
     padding: 3px;
     background-color: #662A0B;
     margin-top: 5px;
@@ -527,11 +553,11 @@ nav img{
 
 .info-card3{
     max-width: 550px;
-    min-width: 300px;
+    min-width: 200px;
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 600px;
+    height: 700px;
     padding: 3px;
     background-color: black;
     margin-top: 5px;
@@ -541,13 +567,26 @@ nav img{
 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1565px){
     .wrapper h2{
-        font-size: 36px
+        font-size: 34px
     }
     
     .wrapper p{
-        font-size: 28px;
+        font-size: 26px;
+     
+    }
+
+
+}
+
+@media (max-width: 1200px){
+    .wrapper h2{
+        font-size: 32px
+    }
+    
+    .wrapper p{
+        font-size: 24px;
      
     }
 
@@ -556,7 +595,7 @@ nav img{
 
 @media (max-width: 1150px){
     .wrapper p{
-        font-size: 26px;
+        font-size: 22px;
      
     }
 
@@ -569,10 +608,67 @@ nav img{
     
     }
 
-    .kids-page{
+    .info-pages{
         background-image: none;
     }
 
+    .info-pages2{
+        background-image: none;
+    }
+
+    .info-pages h1{
+        font-size: 40px;
+    }
+
+    .info-card1{
+        height: 400px;
+    }
+    
+    .info-card2{
+        height: 400px;
+    }
+    
+    .info-card3{
+        height: 400px;
+    }
+
+   
+
+}
+
+@media (max-width: 465px){
+
+    .info-pages{
+        background-image: none;
+    }
+
+    .info-pages h1{
+        font-size: 30px;
+    }
+
+    .info-pages2 h1{
+        font-size: 30px;
+    }
+
+    .wrapper p{
+        font-size: 17px;
+
+    }
+
+    .wrapper h2{
+        font-size: 23px;
+
+    }
+   
+
+}
+
+@media (max-width: 310px){
+
+    .wrapper p{
+        font-size: 16px;
+
+    }
 
    
 
