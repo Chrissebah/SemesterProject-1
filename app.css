@@ -675,8 +675,132 @@ nav img{
 }
 
 
-    
+
+/*--------------------------Exhibition Page--------------------------*/
+
+    .exhibition-page h1{
+        font-size: 46px;
+        color: black;
+        text-align: center;
+        font-family: 'Andika', sans-serif;
+
+    }
+
+    .exhibition-page p{
+        text-align: center;
+        font-family: 'Andika', sans-serif;
+        color: white;
+
+    }
+
+    .exhibition-page h2{
+        text-align: center;
+        color: white;
+        margin-bottom: 5px;
+        font-family: 'Andika', sans-serif;
+
+    }
+
+    .exhibition-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+        gap: 30px;
+
+    }
+
+    .exhibition-image img{
+        width: min(100%, 1000px);
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+
+    }
 
 
+
+    .exhibition-card1{  
+        display: grid;
+        width: min(100% - 32px, 1400px);
+        background: #0E0E0C;
+        margin: 10px auto;
+
+    }
+
+
+    .exhibition-card2{  
+        display: grid;
+        width: min(100% - 32px, 1400px);
+        background: #412F1D;
+        margin: 10px auto;
+
+    }
+
+    .exhibition-card3{  
+        display: grid;
+        width: min(100% - 32px, 1400px);
+        background: #6795A2;
+        margin: 10px auto;
+
+    }
+
+    .exhibition-card4{  
+        display: grid;
+        width: min(100% - 32px, 1400px);
+        background: #967B4A;
+        margin: 10px auto;
+
+    }
+
+    .exhibition-description{
+        padding: 15px;
+
+    }
+
+    .exhibition-description h2{
+        margin-top: 5px;
+
+    }
+
+    @media(min-width:750px){
+
+        .exhibition-image{
+            grid-column: 3;
+            grid-row: 1/3;
+        
+        }
+        
+        
+        .exhibition-description{
+            grid-row: 1;
+            grid-column: 1/3;
+
+        }
+
+        .exhibition-card1{
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+        .exhibition-card2{
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+        .exhibition-card3{
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+        .exhibition-card4{
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+
+       
+
+    }
 
 
