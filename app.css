@@ -651,7 +651,7 @@ nav img{
 }
 
 
-.exhibition-card1{  
+.exhibition-info1{  
     display: grid;
     width: min(100% - 32px, 1400px);
     background: #0E0E0C;
@@ -660,7 +660,7 @@ nav img{
 }
 
 
-.exhibition-card2{  
+.exhibition-info2{  
     display: grid;
     width: min(100% - 32px, 1400px);
     background: #412F1D;
@@ -669,7 +669,7 @@ nav img{
 }
 
 
-.exhibition-card3{  
+.exhibition-info3{  
     display: grid;
     width: min(100% - 32px, 1400px);
     background: #6795A2;
@@ -678,7 +678,7 @@ nav img{
 }
 
 
-.exhibition-card4{  
+.exhibition-info4{  
     display: grid;
     width: min(100% - 32px, 1400px);
     background: #967B4A;
@@ -719,7 +719,7 @@ nav img{
 
         }
 
-        .exhibition-card1 , .exhibition-card2, .exhibition-card3 , .exhibition-card4{
+        .exhibition-info1 , .exhibition-info2, .exhibition-info3 , .exhibition-info4{
             grid-template-columns: 1fr 1fr 1fr;
 
         }
