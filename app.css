@@ -672,7 +672,7 @@ nav img{
 .exhibition-info3{  
     display: grid;
     width: min(100% - 32px, 1400px);
-    background: #6795A2;
+    background: #2E778B;
     margin: 10px auto;
 
 }
@@ -681,7 +681,7 @@ nav img{
 .exhibition-info4{  
     display: grid;
     width: min(100% - 32px, 1400px);
-    background: #967B4A;
+    background: #836839;
     margin: 10px auto;
 
 }
