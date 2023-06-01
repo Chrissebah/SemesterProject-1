@@ -32,7 +32,7 @@ There are no contributions to this project.
 
 Contact
 
-![image](https://github.com/Chrissebah/SemesterProject-1/assets/19626783/6e3a71d2-b7a0-45bd-bd05-37de7f1d3cc1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/christian-g-33443213b/)
 
 Acknowledgments
 Christian Sellie Grøtan - Creator/Owner
