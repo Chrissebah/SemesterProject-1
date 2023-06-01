@@ -1,4 +1,4 @@
-Semester Project 1 NESSC
+Semester Project 1 NESSC </br>
 ![image](https://github.com/Chrissebah/SemesterProject-1/assets/19626783/ebdd3dc3-a209-4f47-9994-e148dbd690fb)
 
 My first year semester project.
