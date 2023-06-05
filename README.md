@@ -5,7 +5,7 @@ My first year semester project.
 
 ## Description:
 This is my first Semester Project. The task is to make a fully functional webpage out of the prototype made in Figma.
-The website needs to be responsive on different screen sizes, WCAG and SEO compatible.
+The website needs to be responsive on different screen sizes, WCAG and SEO compatible. The site in itself was to be made for children with some areas for teachers. The coloring, layout and usability were large focuses for this project.
 
 ## Built With
 
