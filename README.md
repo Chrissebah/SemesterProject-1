@@ -20,13 +20,6 @@ https://jade-raindrop-b95de4.netlify.app/
 ## Link to prototype
 https://www.figma.com/file/B517Wf329Y5uP4syMb9F7M/Semester-Project?node-id=0%3A1&t=D5OkS7mpAzj6ChON-0
 
-### Getting Started
-Installing
-
-### Clone the repo:
-git clone [https://github.com/Chrissebah/SemesterProject-1.git]
-
-
 ### Contributing
 There are no contributions to this project.
 
